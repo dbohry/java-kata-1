@@ -1,3 +1,19 @@
+#What is implemented
+
+`/books`
+
+`/magazines`
+
+Both endpoints has support to request params `author` or `isbn`.
+
+`GET /books?isbn=123456`
+
+`GET /magazines?author=email@email.com`
+
+Also is possible to return both lists merged in one result.
+
+`GET /data`
+
 # Java Kata - Part 1: Library
 
 Code kata in Java where you have to write a library of books and magazines.
