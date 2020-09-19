@@ -5,11 +5,11 @@ import org.junit.Test;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class MainAppUnitTest {
+public class AppUnitTest {
 
     @Test
     public void testGetHelloWorldText() {
-        assertThat(MainApp.getHelloWorldText(), is("Hello world!"));
+        assertThat(App.getHelloWorldText(), is("Hello world!"));
     }
 
 }
